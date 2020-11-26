@@ -15,5 +15,5 @@ varchar表示可变长度的字符串，如varchar(3)，填充'ab'时就会存�
 非空约束 not null
 惟一约束 unique
 默认约束 default
-外键约束 foreign key
+外键约束 FOREIGN KEY (FPerson) REFERENCES T_Person(FName)) ;  当前列FPerson     要关联的表列 T_Person(FName)) 
 数据类型和约束保证了表中数据的准确性和完整性
